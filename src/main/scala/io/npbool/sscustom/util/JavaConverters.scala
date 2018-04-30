@@ -4,10 +4,10 @@ import java.lang
 
 object JavaConverters {
   implicit class IntConverter(val v: Int) extends AnyVal {
-    def toJava: Integer = new Integer(v)
+    def asJava: Integer = new Integer(v)
   }
 
   implicit class BooleanConverter(val v: Boolean) extends AnyVal {
-    def toJava: java.lang.Boolean = new lang.Boolean(v)
+    def asJava: java.lang.Boolean = new lang.Boolean(v)
   }
 }
