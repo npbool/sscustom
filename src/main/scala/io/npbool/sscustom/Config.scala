@@ -1,6 +1,5 @@
 package io.npbool.sscustom
 
-
 import io.netty.channel.socket.{ServerSocketChannel, SocketChannel}
 import io.netty.channel.socket.nio.{NioServerSocketChannel, NioSocketChannel}
 
